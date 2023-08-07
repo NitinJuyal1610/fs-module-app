@@ -1,0 +1,1 @@
+add to the file text.txt this content: Bye!
