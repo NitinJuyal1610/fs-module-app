@@ -84,7 +84,7 @@ const fs = require('fs/promises');
     }
 
     if (command.includes(DELETE_FILE)) {
-      //delete func
+      //delete the file <path>
       const filePath = command.substring(DELETE_FILE.length + 1);
       await deleteFile(filePath);
     }
